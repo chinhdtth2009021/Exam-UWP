@@ -79,3 +79,7 @@ C:\Users\Lenovo\source\repos\Exam-DuongChinh-T2009M1\Exam-DuongChinh-T2009M1\obj
 C:\Users\Lenovo\source\repos\Exam-DuongChinh-T2009M1\Exam-DuongChinh-T2009M1\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Lenovo\source\repos\Exam-DuongChinh-T2009M1\Exam-DuongChinh-T2009M1\obj\x86\Debug\ProjectArchitectures.txt
 C:\Users\Lenovo\source\repos\Exam-DuongChinh-T2009M1\Exam-DuongChinh-T2009M1\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637424563200000000.json
+C:\Users\Lenovo\source\repos\Exam-DuongChinh-T2009M1\Exam-DuongChinh-T2009M1\obj\x86\Debug\Pages\NavigationView.g.i.cs
+C:\Users\Lenovo\source\repos\Exam-DuongChinh-T2009M1\Exam-DuongChinh-T2009M1\obj\x86\Debug\Pages\NavigationView.g.cs
+C:\Users\Lenovo\source\repos\Exam-DuongChinh-T2009M1\Exam-DuongChinh-T2009M1\obj\x86\Debug\Pages\NavigationView.xaml
+C:\Users\Lenovo\source\repos\Exam-DuongChinh-T2009M1\Exam-DuongChinh-T2009M1\obj\x86\Debug\Pages\NavigationView.xbf

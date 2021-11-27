@@ -119,18 +119,17 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Entities\AddContact.cs" />
-    <Compile Include="Entities\SearchContact.cs" />
-    <Compile Include="Layout.xaml.cs">
-      <DependentUpon>Layout.xaml</DependentUpon>
-    </Compile>
+    <Compile Include="Entities\Contact.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Models\ContactModel.cs" />
     <Compile Include="Models\DatabaseMigration.cs" />
-    <Compile Include="Models\ExamModels.cs" />
     <Compile Include="Pages\AddContact.xaml.cs">
       <DependentUpon>AddContact.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\NavigationView.xaml.cs">
+      <DependentUpon>NavigationView.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\SearchContact.xaml.cs">
       <DependentUpon>SearchContact.xaml</DependentUpon>
@@ -157,15 +156,15 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="Layout.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
     <Page Include="Pages\AddContact.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\NavigationView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

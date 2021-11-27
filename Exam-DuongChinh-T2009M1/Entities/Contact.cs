@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Exam_DuongChinh_T2009M1.Entities
 {
-    class AddContact
+    class Contact
     {
-        public string Name { get; set; }
-        public string PhoneNumber { get; set; }
+        public string name { get; set; }
+        public string phoneNumber { get; set; }
     }
 }

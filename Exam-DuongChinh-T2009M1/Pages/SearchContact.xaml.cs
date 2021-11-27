@@ -1,8 +1,10 @@
-﻿using System;
+﻿using Exam_DuongChinh_T2009M1.Models;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using System.Xml.Linq;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.UI.Xaml;
@@ -22,9 +24,30 @@ namespace Exam_DuongChinh_T2009M1.Pages
     /// </summary>
     public sealed partial class SearchContact : Page
     {
+        private ContactModel contactModel = new ContactModel();
         public SearchContact()
         {
-            this.InitializeComponent();
+            this.InitailizeComponent();
+           // this.InitializeComponent();
+        }
+
+        private void InitailizeComponent()
+        {
+            throw new NotImplementedException();
+        }
+
+        private async void Button_Click(object sender, RoutedEventArgs e)
+        {
+            var result = contactModel.SearchByKeyword(txtName.Text);
+            if (result.Count == 0)
+            {
+                ContentDialog contentDialog = new ContentDialog();
+                contentDialog.Title = "Contact not found";
+                contentDialog.PrimaryButtonText = "Try again!";
+                await contentDialog.ShowAsync();
+            }
+            MyListView.ItemsSource = result;
         }
     }
 }
+
